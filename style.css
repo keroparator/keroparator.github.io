@@ -12,7 +12,7 @@
 
 .navbar {
   user-select: none;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   display: flex;
@@ -60,7 +60,6 @@
 
 
 .container {
-    padding-top: 10rem;
     max-width: 60rem;
     margin: 0 auto;
 }
@@ -92,5 +91,9 @@ h1 {
 @media (max-width: 768px) {
   .navbar {
     display: none;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 }
