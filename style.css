@@ -175,6 +175,7 @@ h1 {
 .projects {
   margin-top: 200px;
   height: 1000;
+  display: flex;
 }
 
 .projects h2 {
@@ -189,6 +190,30 @@ h1 {
 
     margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
