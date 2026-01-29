@@ -78,16 +78,25 @@ body {
 
 
 
-
+.uyarı {
+  color: red;
+}
 
 
 
 .container {
-    margin-top: 10rem ;
+    margin-top: 6rem ;
     max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
     /*margin: 0 auto;*/
+}
+
+
+
+
+.main {
+  height: 1000;
 }
 
 
@@ -101,22 +110,32 @@ h1 {
     color: #FFFFFF;
     font-size: 3rem;
 
-}
+    margin-bottom: 10px;
 
-
-.main {
-  height: 1000;
 }
 
 .main p {
-  color: gray;
+  color: rgb(160, 160, 160);
   font-family: Geist;
   letter-spacing: 1px;
+  font-size: 1.1rem;
+
+  margin-top: 25px;
+  line-height: 1.6;
+}
+
+.uni {
+  color: white;
 }
 
 
 
 .projects {
+  height: 1000;
+}
+
+
+.sertifika {
   height: 1000;
 }
 
