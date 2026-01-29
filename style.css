@@ -174,7 +174,7 @@ h1 {
 
 .projects {
   margin-top: 200px;
-  height: 1000;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -193,6 +193,15 @@ h1 {
 }
 
 
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+
+
 .projects-grid {
   display: grid;
   gap: 20px;
@@ -200,6 +209,7 @@ h1 {
 }
 
 .project-card {
+  background: rgba(255, 255, 255, 0.05);
   border: 2px solid white;
   padding: 25px;
   border-radius: 20px;
@@ -227,7 +237,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .tech-tag {
@@ -236,6 +246,11 @@ h1 {
   padding: 4px 10px;
   background: #1a1a1a;
   color: #888;
+}
+
+.projects a{
+  color: white;
+  font-size: 2rem;
 }
 
 
