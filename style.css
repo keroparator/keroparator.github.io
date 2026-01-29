@@ -89,6 +89,9 @@ body {
     max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    /*background-color: white;*/
     /*margin: 0 auto;*/
 }
 
@@ -96,7 +99,7 @@ body {
 
 
 .main {
-  height: 1000;
+  height: auto;
 }
 
 
@@ -104,13 +107,13 @@ h1 {
     display: flex;
 
     font-family: 'Geist';
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -1px;
 
     color: #FFFFFF;
-    font-size: 3rem;
+    font-size: 4rem;
 
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 
 }
 
@@ -138,7 +141,7 @@ h1 {
 
 .buton, buton:visited {
   padding: 10px 15px;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   text-decoration: none;
   font-weight: 600;
   transition: 0.2s;
@@ -166,9 +169,33 @@ h1 {
 
 
 
+
+
+
 .projects {
+  margin-top: 200px;
   height: 1000;
 }
+
+.projects h2 {
+    display: flex;
+
+    font-family: 'Geist';
+    font-weight: 600;
+    letter-spacing: -1px;
+
+    color: #FFFFFF;
+    font-size: 3rem;
+
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
 
 
 .sertifika {
@@ -197,6 +224,6 @@ h1 {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
