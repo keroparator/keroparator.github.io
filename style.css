@@ -118,13 +118,13 @@ h1 {
   color: rgb(160, 160, 160);
   font-family: Geist;
   letter-spacing: 1px;
-  font-size: 1.1rem;
+  font-size: 1rem;
 
   margin-top: 25px;
   line-height: 1.6;
 }
 
-.uni, üni:visited {
+.uni, .uni:visited {
   color: white;
 }
 
