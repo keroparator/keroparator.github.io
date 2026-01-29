@@ -124,9 +124,11 @@ h1 {
   line-height: 1.6;
 }
 
-.uni {
+.uni, üni:visited {
   color: white;
 }
+
+
 
 
 
