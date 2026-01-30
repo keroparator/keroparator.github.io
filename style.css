@@ -282,15 +282,32 @@ h1 {
 
 
 
-
-
-.sertifika {
-  height: 1000;
+.changelog {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
-.experience {
-  height: 1000;
+.changelog h2 {
+  font-family: Geist;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .accounts {
   height: 1000;
