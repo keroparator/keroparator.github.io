@@ -298,6 +298,53 @@ h1 {
   margin-bottom: 40px;
 }
 
+.timeline {
+  border-left: 2px solid white;
+  margin-left: 10px;
+  padding-left: 30px;
+}
+
+.timeline-item {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: -39px;
+    top: 6px;
+    transition: 0.3s;
+}
+
+.timeline-date {
+    font-family: 'JetBrains Mono';
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.timeline-content h3 {
+    font-family: 'Geist';
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.timeline-content p {
+    color: #a0a0a0;
+    font-family: 'Geist';
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
 
 
 
