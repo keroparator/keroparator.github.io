@@ -356,8 +356,91 @@ h1 {
 
 
 
+/* Accounts Bölümü */
 .accounts {
-  height: 1000;
+    margin-top: 150px; /* Üstteki bölümle mesafe */
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accounts h2 {
+    font-family: 'Geist';
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.accounts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Kapsüller arası boşluk */
+    max-width: 600px; /* Çok geniş olmaması için sınır */
+}
+
+.account-capsule {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* İçeriği ortalar */
+    
+    padding: 20px;
+    border-radius: 50px; /* Tam yuvarlak kapsül kenarları */
+    border: 1px solid white; /* Butonlardaki ince kenarlık stili */
+    background: rgba(255, 255, 255, 0.05); /* Projelerdeki hafif transparan zemin */
+    
+    text-decoration: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.account-capsule:hover {
+    background: white;
+    transform: translateY(-3px); /* Hover'da hafif yukarı kalkma */
+}
+
+/* Sol taraftaki ikon kutusu */
+.icon-box {
+    position: absolute;
+    left: 10px; /* Sol kenardan mesafe */
+    top: 50%;
+    transform: translateY(-50%);
+    
+    width: 40px;
+    height: 40px;
+    background: #1a1a1a; /* İkonun arkasında koyu zemin */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.account-capsule i {
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Ortadaki kullanıcı adı */
+.username {
+    font-family: 'JetBrains Mono'; /* Teknik görünüm için */
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+
+/* Hover Efektleri - Renk Değişimi */
+.account-capsule:hover .username {
+    color: #0D0D0D; /* Hover'da yazı siyaha döner */
+    font-weight: 700;
+}
+
+.account-capsule:hover .icon-box {
+    background: #0D0D0D; /* İkon kutusu da siyaha döner */
 }
 
 
