@@ -362,9 +362,42 @@ h1 {
   margin-bottom: 40px;
 }
 
+
+.account-container {
+  gap: 15px;
+  margin-top: 30px;
+}
+
 .account {
   display: flex;
-  
+  align-items: center;
+
+
+  border: 1px solid white;
+  border-radius: 50px;
+
+  color: white;
+  text-decoration: none;
+
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+
+
+
+.account i {
+  font-size: 3rem;
+  margin-right: 15px;
+}
+
+.account .username {
+  font-family: JetBrains Mono;
+  font-size: 2rem;
+  font-weight: 500;
+
+  flex: 1;
+  text-align: center;
 }
 
 
