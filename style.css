@@ -401,7 +401,12 @@ h1 {
 }
 
 
-.source { text-decoration: none; }
+.source a {
+  color: white;
+  font-family: Jetbrains Mono;
+  font-size: 0.8rem;
+  text-decoration: none;
+ }
 
 
 
