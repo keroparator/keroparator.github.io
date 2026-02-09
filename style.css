@@ -33,7 +33,7 @@ body {
 
 .navbar {
   user-select: none;
-  position: sticky;
+  position: top;
   top: 0;
   width: 100%;
   display: flex;
@@ -389,6 +389,11 @@ h1 {
 
   padding: 20px;
   margin-bottom: 25px;
+  transition: 0.2s;
+}
+
+.account:hover {
+  scale: 1.03;
 }
 
 
