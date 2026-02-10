@@ -17,5 +17,6 @@ Bu depo, [keroparator.me](https://keroparator.me) adresinde yayında olan kişis
 Proje tamamen açıktır, klonlayıp geliştirebilir veya olduğu gibi kullanabilirsiniz.
 
 Depoyu klonlayın:
-   ```bash
-   git clone [https://github.com/keroparator/keroparator.github.io.git](https://github.com/keroparator/keroparator.github.io.git)
+```bash
+   git clone https://github.com/keroparator/keroparator.github.io.git
+```
