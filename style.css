@@ -93,6 +93,7 @@ h1 {
 .hero-butonlar {
   margin-top: 70px;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 
 
