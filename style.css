@@ -6,6 +6,9 @@
 }
 
 body {
+
+  overflow-x: hidden;
+
   background-color: #0D0D0D;
   background-image: radial-gradient(
     circle at 50% -50%,
