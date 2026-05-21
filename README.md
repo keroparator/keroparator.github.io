@@ -10,7 +10,7 @@ Bu depo, [keroparator.me](https://keroparator.me) adresinde yayında olan kişis
 - **Dil:** HTML5 ve CSS3
 - **Hosting:** GitHub Pages
 - **Domain:** Namecheap (Github Education pack aracılığıyla ücretsiz alındı)
-- **Tasarım:** Geist, JetBrains fontları
+- **Tasarım:** Geist ve JetBrains fontları
 
 
 ## 🔧 Kurulum
